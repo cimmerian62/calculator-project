@@ -17,3 +17,19 @@ const operate = function(num1, num2, op) {
         return multiply(num1,num2);
     }
 }
+
+const addChar = function(bChar) {
+    val += bChar;
+    calcDisp.value = val;
+    
+}
+
+let val = "";
+const buttons = document.querySelectorAll('button')
+const calcDisp = document.querySelector('.bar')
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      addChar(button.textContent)
+    });
+  });
