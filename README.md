@@ -1,0 +1,1 @@
+This is a calculator app that was built as part of The Odin Project curriculum. It was created using HTML, CSS, and JavaScript.
